@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(255, 72, 0);
+    padding-bottom:0px;
+    margin-bottom: -200;
+}
+.menu ul{
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+}
+.menu li{
+    color: white;
+    margin: auto;
+    list-style-type: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu img{
+    width: 150px;
+    height: 150px;
+}
+.menu form input{
+    width: 250px;
+    height: 30px;
+    background-color:white;
+    color: white;
+    border: 1px solid white;
+}
+.menu #search{
+    margin-left: 70px;
+}
+.menu .sub-menu-1{
+    position: absolute;
+    display: none;
+    top: auto;
+    left: 250px;
+    padding: 15px;
+}
+.menu li:hover .sub-menu-1{
+    background-color: brown;
+    border-radius: 3px;
+    padding: 10px;
+    display: block;
+}
+.menu .sub-menu-2{
+    position: absolute;
+    display: none;
+    top: auto;
+    left: 410px;
+    padding: 15px;
+}
+.menu li:hover .sub-menu-2{
+    background-color: brown;
+    border-radius: 3px;
+    padding: 10px;
+    display: block;
+}
+.sub-menu-1 li:hover{
+    background-color: brown;
+    color: black;
+    padding: 5px;
+}
+.sub-menu-2 li:hover{
+    background-color: brown;
+    color: black;
+    padding: 5px;
+}
+.menu .sub-menu-3{
+    position: absolute;
+    display: none;
+    top: auto;
+    right: 1020px;
+    padding: 15px;
+}
+.menu li:hover .sub-menu-3{
+    background-color: brown;
+    border-radius: 3px;
+    padding: 10px;
+    display: block;
+}
+.menu .sub-menu-4{
+    position: absolute;
+    display: none;
+    top: auto;
+    right: 900px;
+    padding: 15px;
+}
+.menu li:hover .sub-menu-4{
+    background-color: brown;
+    border-radius: 3px;
+    padding: 10px;
+    display: block;
+}
+.sub-menu-3 li:hover{
+    background-color: brown;
+    color: black;
+    padding: 5px;
+}
+.sub-menu-4 li:hover{
+    background-color: brown;
+    color: black;
+    padding: 5px;
+}
+.menu .sub-menu-6{
+    position: absolute;
+    display: none;
+    top: auto;
+    right: 620px;
+    padding: 15px;
+}
+.menu li:hover .sub-menu-6{
+    background-color: brown;
+    border-radius: 3px;
+    padding: 10px;
+    display: block;
+}
+.sub-menu-6 li:hover{
+    background-color: brown;
+    color: black;
+    padding: 5px;
+}
+.menu .sub-menu-7{
+    position: absolute;
+    display: none;
+    top: auto;
+    right: 540px;
+    padding: 15px;
+}
+.menu li:hover .sub-menu-7{
+    background-color: brown;
+    border-radius: 3px;
+    padding: 10px;
+    display: block;
+}
+.menu .sub-menu-8{
+    position: absolute;
+    display: none;
+    top: auto;
+    right: 350px;
+    padding: 15px;
+}
+.menu li:hover .sub-menu-8{
+    background-color: brown;
+    border-radius: 3px;
+    padding: 10px;
+    display: block;
+}
+.sub-menu-7 li:hover{
+    background-color: brown;
+    color: black;
+    padding: 5px;
+}
+.sub-menu-8 li:hover{
+    background-color: brown;
+    color: black;
+    padding: 5px;
+}
+.produc img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 50%;
+}
+.list-tin{
+    display: flex;
+}
+.list-tin .product{
+    margin: auto;
+}
+.produc p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+}
+.product1 img{
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.product2 img{
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.product3 img{
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 100px;
+    height: 133px;
+}
+.product4 img{
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 100px;
+    height: 133px;
+}
+.product5 img{
+    margin-top: 10px;
+    margin-right: 200px;
+    margin-left: 100px;
+    height: 133px;
+}
+.product1 p{
+    text-align: center;
+    font-size: 20px;
+}
+.product2 p{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.product3 p{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.product4 p{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.product5 p{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.list-tin1{
+    display: flex;
+}
+.list-tin1 .product{
+    margin: auto;
+}
+.product6 img{
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.product7 img{
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.product8 img{
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 100px;
+    height: 133px;
+}
+.product9 img{
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 100px;
+    height: 133px;
+}
+.product10 img{
+    margin-top: 10px;
+    margin-right: 200px;
+    margin-left: 100px;
+    height: 133px;
+}
+.product6 p{
+    text-align: center;
+    font-size: 20px;
+}
+.product7 p{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.product8 p{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.product9 p{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.product10 p{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 30px;
+}
+footer{
+    background-color: rgb(18, 17, 17);
+    color: aliceblue;
+    height: 500px;
+}
+@media screen and(max-width:768px){
+    header{
+        padding: 10px;
+    }
+    nav ul{
+        flex-wrap: wrap;
+    }
+    nav li{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .products{
+        flex-wrap: wrap;
+    }
+    .product{
+        width: calc(100%/2-10px);
+        margin-bottom: 30px;
+    }
+} 
+a{
+     text-decoration: none;
+}
